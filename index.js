@@ -124,7 +124,7 @@ grades.forEach((grade) => {
 
 //Treasure Hunter
 
-// 1. Log out how many moves there are in the island.
+// 1. Log out how many moves there are on the island.
 
 const island = ['-', 'T', 'T', '-', '-']
 
@@ -139,7 +139,7 @@ for (let i = 0; i < island.length; i++) {
         console.log(`No treasure found :(`)
     }
 }
-//Log out how many treasures there are in the island
+//Log out how many treasures there are on the island
 let amountOfTreasures = 0
 for (let i = 0; i < island.length; i++) {
     if (island[i] === "T") {
